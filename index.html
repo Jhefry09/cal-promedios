@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/css.css" rel="stylesheet">
+    <link rel="stylesheet" href="" id="resultado">
+  <script src="java/java.js">    
+   </script>
+  </head>
+  <body id="body" class="body">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<div class="fondo">
+ <div class="titulo"> 
+ </div>
+      <div id="formu">
+      <form name="frmdatos" id="frmdatos" class="frmdatos">
+        <div id="titu">
+          <h1>PROMEDIO</h1>
+        </div>
+        <div class="cj"><h3>NOTA 1:</h3>
+          <td width="153"><label for="txtn1"></label>
+          <input type="text" name="txtn1" id="txtn1" class="txt" value=""></td></div> 
+        <div class="cj"><h3>NOTA 2:</h3>
+        <td><input type="text" name="txtn2" id="txtn2" class="txt" value=""></td></div>
+        <div class="cj"><h3>NOTA 3:</h3>
+          <td><input type="text" name="txtn3" id="txtn3" class="txt" value=""></td> </div>
+        <div class="cj"><h3>NOTA 4:</h3>
+          <td><input type="text" name="txtn4" id="txtn4" class="txt" value=""></td></div>
+        <div class="cj"><h3>NOTA 5:</h3>
+          <td><input type="text" name="txtn5" id="txtn5" class="txt" value=""></td></div>
+        <div class="cj"><h3>NOTA 6:</h3>
+          <td><input type="text" name="txtn6" id="txtn6" class="txt" value=""></td> </div>
+          <div class="botones">
+          <input type="button" name="btnprocesar" id="btnprocesar" onclick="calcular()" value="BOTON"> 
+          <input type="button" name="porcentaje" id="porcentaje" onclick="porcen()" value="PORCENTAJE"> 
+          <input type="button" name="btnsuma" id="btnsuma" onclick="suma()" value="SUMA">
+          <input type="button" name="btnlimpiar" id="btnlimpiar" value="Limpiar" onclick="res()"></div><br><hr> 
+        <div id="salida">
+            <div class="dentro">
+        <h2> Promedio:</h2> 
+          <td ><label for="txtp"></label>
+            <input type="text" name="txtp" class="res" value="">
+        <h2>  Estado:</h2>
+          <input type="text" name="txta"  class="res" value="">
+            </div>
+            <div class="dentro">
+        <h2> PORCENTAJE:</h2> 
+          <td ><label for="txtp"></label>
+            <input type="text" name="txtpor" class="res" value="">
+        <h2>  SUMA:</h2>
+          <input type="text" name="txtsuma" id="txtsuma"  class="res" value="">
+            </div>
+        </div>
+    </form>
+      </div>
+      <div class="shadow">
+      </div>
+</div>    
+  </body>
+</html>

@@ -1,0 +1,150 @@
+    .frmdatos {
+    background: blue;
+    text-align: center; 
+    box-shadow: 0px 0px 20px 5px #AAA; 
+    border-radius: 10px;  
+    width: 45%; 
+    margin: 30px auto 0 auto;
+    padding: 10px 10px;  
+    animation: bounce 1.5s infinite;
+  }
+#titu h1{
+      font-family: 'Arial', sans-serif;
+    }
+.cj{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+    }
+.cj h3{
+    padding-right: 20px;
+    }
+  .txt {   
+    background-color: rgb(230, 108, 15);
+    border-bottom: 5px solid rgb(195, 35, 17);
+    overflow: hidden;
+  }
+.txt:hover{
+    background-color: #2DD7BB;
+    border-bottom: 5px solid black;
+    transition: 2s;
+    border-radius: 30px;
+    transform: scale(2.1);
+  }
+.body{
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    height:700px;
+}
+    .fondo {
+    width: 80%;
+    height: 50%;
+    margin: 5% auto 0 auto; 
+  }
+.title{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 42px;
+    color: rgb(252, 252, 252);
+  }
+  .shadow{
+    box-shadow: 0px 0px 60px 5px #AAA;
+    opacity: 0.5;
+    border-radius: 100px;
+    width: 50%; 
+    margin: 50px auto 0 auto;
+    padding: 0 20px;  
+    animation: shadow 1.5s infinite;
+  }
+  #porcentaje{
+      background-color: #ff00fb;
+      border: 5px solid green;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  #porcentaje:hover{
+      background-color: #581845;
+      color: white;
+      transform: scale(2.1);
+      border-radius: 30px;
+      border-color: orange;
+      transition: 3s;
+    }
+  #btnprocesar{
+      background-color: green;
+      border: 5px solid yellow;
+    }
+  #btnprocesar:hover{
+      transform:scale(2.1) ;
+      border-color: red;
+      background-color: yellow;
+      border-radius: 30px;
+      transition: 3s;
+    }
+  #btnlimpiar{
+      background-color: black;
+      color: white;
+      border: 5px solid purple;  
+    }
+  #btnlimpiar:hover{
+      transform: scale(2.1);
+      transition: 3s;
+      background-color: red;
+      border-radius: 30px;
+    }
+  #btnsuma{
+      background-color: #00fff0;
+      color: black;
+      border: 5px solid #f3ff00;  
+      margin-right: 20px;
+    }
+  #btnsuma:hover{
+      transform: scale(2.1);
+      transition: 3s;
+      background-color: #efd517;
+      border-radius: 30px;
+      border-color: #b152e4;
+    }
+  .res{
+      height: 20%;
+      background-color: yellow;
+     
+    }
+  #salida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+.dentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  #salida h2{
+    padding-right: 5px;
+    padding-left: 10px;
+    }
+  @keyframes bounce{
+    0%{
+      
+    }
+    50%{
+      transform: translate(0, 8px);
+    }
+
+  }
+  @keyframes shadow{
+    0%{
+      
+    }
+    50%{
+      opacity: 0.8;
+      width: 50%;
+    }
+  }
